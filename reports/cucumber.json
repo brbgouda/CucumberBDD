@@ -1,0 +1,218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24018386222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.initialization()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login Test",
+        "description": "",
+        "id": "free-crm-login;login-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 717586092,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1733231414,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3145138201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"brbgouda\" and \"fc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "brbgouda",
+                  "offset": 13
+                },
+                {
+                  "val": "fc@123",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14699102610,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42280637,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@fclogin3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11724757007,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.initialization()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login Test",
+        "description": "",
+        "id": "free-crm-login;login-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 724924648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36092105,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275221488,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"brbgouda\" and \"fc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "brbgouda",
+                  "offset": 13
+                },
+                {
+                  "val": "fc@123",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14777191389,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44760545,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@fclogin3"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login",
+    "description": "",
+    "id": "free-crm-login",
+    "keyword": "Feature",
+    "uri": "login3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@fclogin3"
+      }
+    ]
+  }
+]
